@@ -1,0 +1,236 @@
+
+
+#titel{
+background-image: url(https://bskies.io/wp-content/uploads/layerslider/Homeslider/Bannerbild-11.jpg);
+width: calc(100% - 4%);
+float:left;
+height: calc(10% - 2%);
+padding: 2% 2%;
+font-size: 20px;
+font-weight: bold;
+color: White;
+}
+
+#Home {
+float: left;
+border-width: 1px;
+border: solid;
+color: white;
+float: right;
+font-size: 20px;
+
+}
+#Home:hover {
+  border: none;
+  background-color: black;
+
+}
+#Home:active {
+  background-color: black;
+  border: none;
+  transform: translateY(0px);
+}
+
+#Home a{
+  color: white;
+  text-decoration: none;
+}
+
+body{
+  margin: 0;
+  padding-bottom: 50px;
+  background-image: url(http://static.zoonar.de/img/www_repository4/8a/fc/f6/10_07a345a7d302063eb87ea5a38b124d67.jpg);
+}
+
+footer{
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:40px;
+    width:100%;
+    background-image: url(https://bskies.io/wp-content/uploads/layerslider/Homeslider/Bannerbild-11.jpg);
+    text-align: center;
+    font-size: 15px;
+    color: White;
+    }
+
+footer a{
+  color: white;
+}
+.nav{
+color: white;
+font-weight: bold;
+float:left;
+margin-left: 30px;
+margin-right: 50px;
+margin-top: 35px;
+}
+
+.wrapper{
+
+    width: 80%;
+
+    margin: 2em auto 0;
+}
+
+.form-group{
+  color: white;
+
+}
+
+#vorname,#nachname{
+margin-top: 10px;
+}
+
+#vorname{
+  margin-left: 30px;
+}
+
+#nachname{
+  margin-left: 19px;
+  margin-bottom: 20px;
+}
+
+.fehler{
+    background-color: #Fc798a;
+    color: red;
+    padding-top: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.versendet{
+    background-color: #66ffcc;
+    color: green;
+    padding-top: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: green;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+textarea {
+margin-bottom: 20px;
+
+}
+
+.ausgabe {
+  color: white;
+}
+
+.form-actions {
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+    margin-top: 10px;
+    margin-bottom: 0;
+
+}
+
+#links a{
+color: white;
+text-decoration: none;
+
+}
+
+h1{
+color: White;
+}
+
+#Blogs{
+  width: calc (80% - 10%);
+  border: solid;
+  color: white;
+  padding: 0 5% 5% 5%;
+  margin: 53px 90px 90px 230px;
+  word-wrap: break-word;
+}
+
+
+
+.Blog {
+  font-size: 16px !important;
+  width: 50%;
+  position: relative;
+  background-image: url(https://bskies.io/wp-content/uploads/layerslider/Homeslider/Bannerbild-11.jpg);
+  text-align: center;
+  padding: 1em 2em; /* Adjust to suit */
+  margin: 2em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+  border-radius: 25px;
+}
+
+img{
+  width: 90%;
+
+  max-height: 400px;
+  max-width: 800px;
+}
+
+
+@font-face {
+  font-family: 'apple';
+  src: url(data:application/x-font-ttf;charset=utf-8;base64,AAEAAAALAIAAAwAwT1MvMg6SAysAAAC8AAAAYGNtYXAaVcxYAAABHAAAAExnYXNwAAAAEAAAAWgAAAAIZ2x5ZqrfI3MAAAFwAAAA1GhlYWQD07CSAAACRAAAADZoaGVhB4UDxwAAAnwAAAAkaG10eAoAAHoAAAKgAAAAGGxvY2EAkgBOAAACuAAAAA5tYXhwAAkAGAAAAsgAAAAgbmFtZa5zCdEAAALoAAABM3Bvc3QAAwAAAAAEHAAAACAAAwQAAZAABQAAApkCzAAAAI8CmQLMAAAB6wAzAQkAAAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAAAAAAAABAAADmAQPA/8D/wAPAAEAAAAABAAAAAAAAAAAAAAAgAAAAAAACAAAAAwAAABQAAwABAAAAFAAEADgAAAAKAAgAAgACAAEAIOYB//3//wAAAAAAIOYA//3//wAB/+MaBAADAAEAAAAAAAAAAAAAAAEAAf//AA8AAQAAAAAAAAAAAAIAADc5AQAAAAABAAAAAAAAAAAAAgAANzkBAAAAAAEAAAAAAAAAAAACAAA3OQEAAAAAAQA9AAoDwwOPAAkAAAETIQUTJQUTJSECAHoBSf70X/7q/upf/vQBSQOP/qjK/p3V1QFjygAAAAACAD0ACgPDA48ACgAVAAABIQsBIQUDJQUDJQUHNycXNxc3BxcnA8P+t3p6/rcBDF8BFgEWXwEM/j2aP5K1ODi0kT+aAjcBWP6oyv6d1dUBY8r0gLd1Bc/PBXW3gAAAAAABAAAAAQAADdS5fF8PPPUACwQAAAAAANB5NgMAAAAA0Hk2AwAAAAADwwOPAAAACAACAAAAAAAAAAEAAAPA/8AAAAQAAAAAAAPDAAEAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAgAAAAQAAD0EAAA9AAAAAAAKABQAHgA6AGoAAAABAAAABgAWAAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAADgCuAAEAAAAAAAEACgAAAAEAAAAAAAIADgA5AAEAAAAAAAMACgAgAAEAAAAAAAQACgBHAAEAAAAAAAUAFgAKAAEAAAAAAAYABQAqAAEAAAAAAAoANABRAAMAAQQJAAEACgAAAAMAAQQJAAIADgA5AAMAAQQJAAMACgAgAAMAAQQJAAQACgBHAAMAAQQJAAUAFgAKAAMAAQQJAAYACgAvAAMAAQQJAAoANABRAGEAcABwAGwAZQBWAGUAcgBzAGkAbwBuACAAMQAuADAAYQBwAHAAbABlYXBwbGUAYQBwAHAAbABlAFIAZQBnAHUAbABhAHIAYQBwAHAAbABlAEYAbwBuAHQAIABnAGUAbgBlAHIAYQB0AGUAZAAgAGIAeQAgAEkAYwBvAE0AbwBvAG4ALgAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==) format("truetype"), url(data:application/font-woff;charset=utf-8;base64,d09GRgABAAAAAASIAAsAAAAABDwAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABPUy8yAAABCAAAAGAAAABgDpIDK2NtYXAAAAFoAAAATAAAAEwaVcxYZ2FzcAAAAbQAAAAIAAAACAAAABBnbHlmAAABvAAAANQAAADUqt8jc2hlYWQAAAKQAAAANgAAADYD07CSaGhlYQAAAsgAAAAkAAAAJAeFA8dobXR4AAAC7AAAABgAAAAYCgAAemxvY2EAAAMEAAAADgAAAA4AkgBObWF4cAAAAxQAAAAgAAAAIAAJABhuYW1lAAADNAAAATMAAAEzrnMJ0XBvc3QAAARoAAAAIAAAACAAAwAAAAMEAAGQAAUAAAKZAswAAACPApkCzAAAAesAMwEJAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAQAAA5gEDwP/A/8ADwABAAAAAAQAAAAAAAAAAAAAAIAAAAAAAAgAAAAMAAAAUAAMAAQAAABQABAA4AAAACgAIAAIAAgABACDmAf/9//8AAAAAACDmAP/9//8AAf/jGgQAAwABAAAAAAAAAAAAAAABAAH//wAPAAEAAAAAAAAAAAACAAA3OQEAAAAAAQAAAAAAAAAAAAIAADc5AQAAAAABAAAAAAAAAAAAAgAANzkBAAAAAAEAPQAKA8MDjwAJAAABEyEFEyUFEyUhAgB6AUn+9F/+6v7qX/70AUkDj/6oyv6d1dUBY8oAAAAAAgA9AAoDwwOPAAoAFQAAASELASEFAyUFAyUFBzcnFzcXNwcXJwPD/rd6ev63AQxfARYBFl8BDP49mj+StTg4tJE/mgI3AVj+qMr+ndXVAWPK9IC3dQXPzwV1t4AAAAAAAQAAAAEAAA3UuXxfDzz1AAsEAAAAAADQeTYDAAAAANB5NgMAAAAAA8MDjwAAAAgAAgAAAAAAAAABAAADwP/AAAAEAAAAAAADwwABAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAIAAAAEAAA9BAAAPQAAAAAACgAUAB4AOgBqAAAAAQAAAAYAFgACAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA4ArgABAAAAAAABAAoAAAABAAAAAAACAA4AOQABAAAAAAADAAoAIAABAAAAAAAEAAoARwABAAAAAAAFABYACgABAAAAAAAGAAUAKgABAAAAAAAKADQAUQADAAEECQABAAoAAAADAAEECQACAA4AOQADAAEECQADAAoAIAADAAEECQAEAAoARwADAAEECQAFABYACgADAAEECQAGAAoALwADAAEECQAKADQAUQBhAHAAcABsAGUAVgBlAHIAcwBpAG8AbgAgADEALgAwAGEAcABwAGwAZWFwcGxlAGEAcABwAGwAZQBSAGUAZwB1AGwAYQByAGEAcABwAGwAZQBGAG8AbgB0ACAAZwBlAG4AZQByAGEAdABlAGQAIABiAHkAIABJAGMAbwBNAG8AbwBuAC4AAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.horrible {
+  position: relative;
+  clear: both;
+  display: inline-block;
+  margin-top: none;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: none;
+  color: rgba(0, 0, 0, 0.1);
+
+}
+
+.horrible:hover{
+  color: white;
+}
+
+
+
+.horrible:before {
+  content: "\e601";
+  font-family: 'apple';
+  color: white;
+
+}
+
+
+.horrible:hover:before{
+  color: red;
+  content: "\e600";
+  font-family: 'apple';
+
+}
