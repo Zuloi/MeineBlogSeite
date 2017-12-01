@@ -1,3 +1,4 @@
+
 <?php
 $errors = [];
 
@@ -46,21 +47,10 @@ $errors = [];
     //$stmt->execute();
   }
 
-}?> <!-- schliest:  if ($_SERVER['REQUEST_METHOD'] === 'POST') { -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="../blog/blog.css" rel="stylesheet" />
-  <title>Document</title>
-</head>
-<body>
+}?>
 
-  <div id=titel>RBWS  <div id=Home> <a href="http://localhost/Blog/home.php">Home</a><br></div></div>
-
-	<div style="clear: both;"></div>
+<div id=titel>RBWS  <div id=Home> <a href="home.php">Home</a><br></div></div>
+<h1 style="color:white;">blog.view</h1>
 
 <div class>
 <div class="wrapper">
@@ -110,8 +100,3 @@ $errors = [];
 
         </form>
     </div>
-</body>
-    <footer>
-        <div><p>Hier ist die Seite zu Ende</p></div>
-      </footer>
-</html>
