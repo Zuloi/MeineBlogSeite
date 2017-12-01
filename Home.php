@@ -64,7 +64,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST')
         <div id="main">
 
                     <?php
-                    $dbconnection = new PDO('mysql:host=10.20.16.102;dbname=ipadressen','DB_BLJ','BLJ12345l');
+                    $dbconnection = new PDO('mysql:host=10.20.16.107;dbname=ipadressen','DB_BLJ','BLJ12345l');
                     $stmt = $dbconnection->query("SELECT ip,home FROM t_ipadress order by ID");
                     $ipArray = $stmt -> fetchAll();
                     ?>
@@ -110,8 +110,21 @@ echo '<button class="horrible" name="kill" type="submit" ><br>kill me</button>
       <button class="horrible" name="great" type="submit" ><br>its great</button>'. '<br />';
 echo '<input name = "Id" type="hidden" value="'. $x["Id"] . '" />';
  if($x["anzahl_bewertungen"] > 0) {
-   echo 'Durchschnittsbewertung: '. $x["summe_bewertungen"] / $x["anzahl_bewertungen"] . '<br />';
- }
+   $zahl = $x["summe_bewertungen"] / $x["anzahl_bewertungen"];
+   if($bewertung != NULL) {
+               if($zahl < 2){
+                echo 'Durchschnittsbewertung: 1 Stern';}
+               if($zahl >=2 && $zahl < 3){
+                echo 'Durchschnittsbewertung: 2 Sterne';}
+               if($zahl >=3 && $zahl < 4){
+                echo 'Durchschnittsbewertung: 3 Sterne';}
+               if($zahl >=4 && $zahl < 4.6){
+                echo 'Durchschnittsbewertung: 4 Sterne';}
+               if($zahl== 5 || $zahl > 4.6){
+                 echo 'Durchschnittsbewertung: 5 Sterne';}
+    }
+}
+
  else {
    echo 'Seien Sie der erste der bewertet! :C';
  }

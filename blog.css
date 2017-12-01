@@ -9,6 +9,9 @@ padding: 2% 2%;
 font-size: 20px;
 font-weight: bold;
 color: White;
+position: absolute;
+top: 0px;
+
 }
 
 #Home {
@@ -18,8 +21,8 @@ border: solid;
 color: white;
 float: right;
 font-size: 20px;
-
 }
+
 #Home:hover {
   border: none;
   background-color: black;
@@ -38,8 +41,9 @@ font-size: 20px;
 
 body{
   margin: 0;
-  padding-bottom: 50px;
+  margin-top: 10%;
   background-image: url(http://static.zoonar.de/img/www_repository4/8a/fc/f6/10_07a345a7d302063eb87ea5a38b124d67.jpg);
+  padding-bottom: 2%;
 }
 
 footer{
@@ -69,13 +73,11 @@ margin-top: 35px;
 .wrapper{
 
     width: 80%;
-
     margin: 2em auto 0;
 }
 
 .form-group{
   color: white;
-
 }
 
 #vorname,#nachname{
@@ -176,32 +178,6 @@ img{
   font-weight: normal;
   font-style: normal;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .horrible {
   position: relative;
